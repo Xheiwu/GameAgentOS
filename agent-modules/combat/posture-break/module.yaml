@@ -1,0 +1,49 @@
+module:
+  id: combat.posture_break
+  name: Posture Break Boss Combat
+  version: 1.0
+  category: combat
+  purpose: >-
+    Generate boss encounters where player skill, timing and decision making
+    create vulnerability windows instead of relying only on damage output.
+
+intent:
+  player_experience:
+    - tension
+    - anticipation
+    - mastery
+    - reward
+
+use_cases:
+  - action_rpg
+  - boss_battle
+  - melee_combat
+
+inputs:
+  required_entities:
+    - Player
+    - Boss
+
+  required_capabilities:
+    - entity_system
+    - event_system
+    - state_change_system
+    - feedback_system
+
+outputs:
+  creates:
+    - posture_resource
+    - parry_loop
+    - vulnerability_window
+    - execution_state
+
+rules:
+  - Boss attacks must provide readable preparation.
+  - Defensive actions should create offensive opportunities.
+  - Major rewards require successful skill execution.
+  - Feedback intensity should match event importance.
+
+agent_generation_notes:
+  - Do not implement as a simple damage multiplier system.
+  - Model combat as events and state transitions.
+  - Keep parameters engine independent.

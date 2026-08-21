@@ -1,0 +1,46 @@
+events:
+
+  AttackStarted:
+    description: Boss begins a readable attack sequence.
+    payload:
+      - attacker
+      - attack_id
+      - timing_data
+
+  ParryAttempt:
+    description: Player attempts a timed defensive action.
+    payload:
+      - player
+      - timestamp
+
+  ParrySuccess:
+    description: Player successfully counters an incoming attack.
+    effects:
+      - reduce_posture
+      - create_feedback
+
+  ParryFailed:
+    description: Defensive timing failed.
+    effects:
+      - apply_damage
+      - apply_penalty
+
+  PostureChanged:
+    payload:
+      - current_value
+      - max_value
+
+  PostureBroken:
+    condition:
+      posture <= 0
+    effects:
+      - enter_vulnerable_state
+      - enable_execution
+
+  ExecuteAvailable:
+    description: Player can perform a high reward finishing action.
+
+  ExecuteFinished:
+    effects:
+      - damage
+      - reward_feedback

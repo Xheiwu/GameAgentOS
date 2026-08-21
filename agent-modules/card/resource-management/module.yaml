@@ -1,0 +1,8 @@
+module:
+  name: Resource Management Foundation
+  category: card-combat/core
+  purpose: Define energy, action points and cost systems.
+  capabilities:
+    - resource_pool
+    - cost_calculation
+    - regeneration_rules

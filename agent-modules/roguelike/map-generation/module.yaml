@@ -1,0 +1,7 @@
+name: map-generation
+category: roguelike
+purpose: Define procedural route and room structures.
+capabilities:
+  - node maps
+  - branching paths
+  - room progression

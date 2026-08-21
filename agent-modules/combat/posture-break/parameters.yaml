@@ -1,0 +1,66 @@
+module: Posture Break Boss Duel
+version: 0.1
+
+purpose:
+  Define tunable parameters that control skill-based boss combat pacing.
+
+parameters:
+  posture:
+    description: Secondary combat resource representing enemy stability.
+    fields:
+      maximum:
+        type: number
+        meaning: Total posture capacity.
+      recovery_rate:
+        type: number
+        meaning: How quickly posture returns when pressure is reduced.
+      break_threshold:
+        type: number
+        default: 0
+
+  attack_timing:
+    description: Defines boss attack readability and reaction opportunity.
+    fields:
+      telegraph_time:
+        type: duration
+        meaning: Time between attack warning and execution.
+      active_time:
+        type: duration
+        meaning: Damage window.
+      recovery_time:
+        type: duration
+        meaning: Vulnerability window after attack.
+
+  parry:
+    description: Defines defensive timing precision.
+    fields:
+      perfect_window:
+        type: duration
+        meaning: Highest reward timing window.
+      success_window:
+        type: duration
+        meaning: Normal successful defense window.
+      failure_penalty:
+        type: rule
+        meaning: Consequence of failed timing.
+
+presets:
+  souls_like:
+    telegraph_time: long
+    recovery_time: long
+    parry_reward: high
+
+  action_game:
+    telegraph_time: medium
+    recovery_time: short
+    parry_reward: medium
+
+  mobile_action:
+    telegraph_time: short
+    feedback_frequency: high
+    failure_penalty: reduced
+
+rules:
+  - Higher player skill should create shorter encounters.
+  - Important timing decisions require visible feedback.
+  - Parameter changes should preserve player reaction opportunities.

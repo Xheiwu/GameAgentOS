@@ -1,0 +1,26 @@
+name: genre-classification
+version: 1.0
+category: game-blueprint-engine
+purpose: Convert user game ideas into structured genre and gameplay patterns.
+
+inputs:
+  - user_idea
+  - reference_games
+  - desired_experience
+
+outputs:
+  - genre_tags
+  - gameplay_patterns
+  - required_modules
+
+examples:
+  - input: Hades-like Chinese mythology action game
+    output:
+      genres:
+        - action
+        - roguelike
+        - rpg
+      modules:
+        - combat
+        - roguelike
+        - progression

@@ -1,0 +1,13 @@
+module:
+  name: Skill Tree Foundation
+  version: 1.0
+  category: rpg/progression
+  purpose: Define long term ability progression and specialization paths.
+  concepts:
+    - skill_nodes
+    - unlock_rules
+    - specialization
+    - respec
+  dependencies:
+    - skill-system
+    - attribute-system

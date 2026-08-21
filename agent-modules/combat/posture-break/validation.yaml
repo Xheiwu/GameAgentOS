@@ -1,0 +1,28 @@
+module: Posture Break Boss Duel
+
+validation_goal:
+  Verify that generated combat systems preserve the intended player experience.
+
+experience_checks:
+  - name: readability
+    description: Players should understand incoming attacks before impact.
+
+  - name: reaction_window
+    description: Defensive actions should have meaningful timing opportunities.
+
+  - name: reward_conversion
+    description: Successful defense should create a visible advantage.
+
+  - name: vulnerability_window
+    description: Boss weakness states should create meaningful player decisions.
+
+technical_checks:
+  - Boss must have explicit states.
+  - Combat changes must flow through events.
+  - Major events must trigger feedback.
+  - Parameters must be adjustable without rewriting core logic.
+
+failure_cases:
+  - Random unavoidable attacks.
+  - Defense only reducing damage without creating advantage.
+  - Excessive effects hiding gameplay information.

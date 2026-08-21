@@ -1,0 +1,7 @@
+name: event-system
+category: roguelike
+purpose: Define non-combat choices and consequences.
+capabilities:
+  - npc events
+  - risk choices
+  - narrative events

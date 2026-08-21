@@ -1,0 +1,49 @@
+# Blueprint Example Case 003
+# Monster Hunter Lite Hunting Loop
+
+input:
+  description: "Create a lightweight monster hunting game inspired by Monster Hunter"
+
+analysis:
+  genre:
+    - action
+    - rpg
+    - boss_hunting
+  experience:
+    - preparation
+    - target_tracking
+    - weakness_discovery
+    - long_boss_encounter
+    - equipment_growth
+
+reference_patterns:
+  - name: hunting_loop
+    pattern:
+      - prepare
+      - hunt_target
+      - analyze_behavior
+      - exploit_weakness
+      - collect_materials
+      - upgrade_equipment
+
+selected_modules:
+  combat:
+    - boss-pattern
+    - enemy-ai
+    - responsive-combat
+  progression:
+    - equipment-system
+    - affix-system
+  reward:
+    - reward-choice
+
+missing_capabilities:
+  - hunting-loop-core
+
+core_loop:
+  - preparation
+  - exploration
+  - boss_hunt
+  - reward
+  - equipment_upgrade
+  - stronger_hunt

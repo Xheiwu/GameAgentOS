@@ -1,0 +1,17 @@
+module:
+  name: game_query_understanding
+  version: 1.0
+  category: blueprint_engine
+  purpose: Convert natural language game ideas into structured design requirements.
+  inputs:
+    - user_idea
+    - reference_games
+    - target_platform
+  outputs:
+    - genre_tags
+    - gameplay_tags
+    - required_modules
+    - blueprint_constraints
+  next_modules:
+    - genre-classification
+    - module-selection

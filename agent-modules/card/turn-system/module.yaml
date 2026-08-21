@@ -1,0 +1,8 @@
+module:
+  name: Turn System Foundation
+  category: card-combat/core
+  purpose: Define turn phases, action order and resolution flow.
+  capabilities:
+    - turn_phase_management
+    - action_resolution
+    - round_state

@@ -1,0 +1,33 @@
+pattern:
+  id: boss_challenge
+  name: Boss Challenge Pattern
+  category: combat
+
+experience:
+  core_feeling:
+    - tension
+    - learning
+    - mastery
+
+why_it_works:
+  - players improve through understanding
+  - victory feels earned through adaptation
+
+usage_context:
+  - action games
+  - hunting games
+  - roguelike games
+
+reference_examples:
+  - Dead Cells
+  - Hades
+  - Monster Hunter
+
+related_modules:
+  - boss-pattern
+  - enemy-ai
+  - combat-level-design
+
+considerations:
+  - challenge should come from behavior, not only numbers
+  - readable feedback is essential

@@ -1,0 +1,13 @@
+module:
+  name: Character Level Foundation
+  version: 1.0
+  category: rpg/progression
+  purpose: Provide universal character growth through experience and level progression.
+  concepts:
+    - experience_points
+    - level_threshold
+    - unlock_progression
+    - growth_milestone
+  dependencies:
+    - attribute-system
+    - skill-system

@@ -1,0 +1,8 @@
+module:
+  name: Combat Encounter Design Foundation
+  version: 1.0
+  category: combat/content
+  purpose: Define enemy combinations, encounter pacing and battle scenarios.
+  dependencies:
+    - combat/enemy-ai
+    - combat/boss-pattern

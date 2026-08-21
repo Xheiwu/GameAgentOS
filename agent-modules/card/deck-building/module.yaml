@@ -1,0 +1,8 @@
+module:
+  name: Deck Building Foundation
+  category: card-combat/core
+  purpose: Define card collection, deck construction and optimization loops.
+  capabilities:
+    - deck_creation
+    - card_acquisition
+    - deck_editing

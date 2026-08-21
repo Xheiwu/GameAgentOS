@@ -1,43 +1,43 @@
-# Pattern Schema v1.0
+# Pattern Schema v1.1
+
+# Pattern is a design thinking guide, not a fixed implementation template.
+# Agent should use patterns as inspiration and constraints, while keeping room for creative decisions.
 
 pattern:
   id: unique_identifier
   name: pattern_name
-  category: combat|progression|economy|retention|content
+  category:
+    - combat
+    - progression
+    - economy
+    - retention
+    - content
 
-experience:
+core_experience:
+  # What player experience does this pattern create?
   player_feeling: []
   motivation: []
   emotional_goal: []
 
-psychology:
-  decisions:
-    - choices_created
-    - tradeoffs
-  feedback_loop:
-    - action
-    - consequence
-    - reinforcement
+why_it_works:
+  # The underlying design reason.
+  design_intention: []
+  player_behavior_created: []
 
-principles:
-  - design_rule
-  - constraint
-  - balance_requirement
+usage_context:
+  # When this pattern is commonly useful.
+  suitable_for: []
+  reference_examples: []
 
-system_requirements:
-  required_modules: []
-  optional_modules: []
+related_modules:
+  # Suggestions only. Agent decides final implementation.
+  modules: []
 
-composition:
-  compatible_patterns: []
-  conflicting_patterns: []
+considerations:
+  # Risks and things Agent should think about.
+  potential_problems: []
+  balance_questions: []
 
-failure_modes:
-  - common_failure
-  - bad_implementation
-
-validation:
-  metrics:
-    - engagement
-    - clarity
-    - replayability
+agent_notes:
+  creativity_level: high
+  implementation_fixed: false

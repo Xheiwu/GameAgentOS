@@ -1,0 +1,11 @@
+module:
+  name: Damage Pipeline Foundation
+  version: 1.0
+  category: combat/core
+  purpose: Universal damage calculation and effect flow.
+  dependencies:
+    - responsive-combat
+  capabilities:
+    - damage-calculation
+    - modifier-processing
+    - effect-triggering

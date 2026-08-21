@@ -1,0 +1,10 @@
+module:
+  name: Responsive Combat Foundation
+  version: 1.0
+  category: combat/core
+  purpose: Provide immediate and readable combat feedback.
+  dependencies: []
+  capabilities:
+    - input-response
+    - hit-confirmation
+    - combat-feedback

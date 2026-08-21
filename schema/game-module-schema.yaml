@@ -1,40 +1,94 @@
 # GameAgentOS Game Module Schema
+# Version: 0.2
+# Standard format for AI-readable game design modules
 
 module:
   name: ""
   category: ""
-  version: "0.1"
+  version: "0.2"
+  tags:
+    - ""
 
 purpose:
   description: ""
-  player_experience: ""
+  player_experience_goal: ""
+  emotional_target: ""
+
+context:
+  game_types:
+    - ""
+  suitable_genres:
+    - ""
+  complexity_level: ""
 
 input:
-  - ""
+  description: ""
+  triggers:
+    - ""
 
 output:
-  - ""
+  player_feedback:
+    - ""
+  system_result:
+    - ""
+
+logic_flow:
+  steps:
+    - ""
 
 rules:
   - ""
 
 parameters:
   - name: ""
-    value: ""
+    type: ""
+    default: ""
+    range: ""
 
 components:
-  - ""
+  required:
+    - ""
+  optional:
+    - ""
 
 dependencies:
-  - ""
+  - module: ""
+    reason: ""
 
-engine_notes:
-  unity: ""
-  godot: ""
-  urhox: ""
+player_experience:
+  feeling:
+    - ""
+  intensity: ""
+
+implementation:
+  pseudocode: ""
+  technical_notes: ""
+
+engine_adapters:
+  unity:
+    notes: ""
+  godot:
+    notes: ""
+  urhox:
+    notes: ""
+  web:
+    notes: ""
+
+ai_agent_instruction:
+  generation_prompt: ""
+  validation_rules:
+    - ""
 
 examples:
-  - ""
+  games:
+    - ""
+  references:
+    - ""
 
-references:
-  - ""
+metadata:
+  author: ""
+  created: ""
+  language:
+    - en
+    - zh
+    - ja

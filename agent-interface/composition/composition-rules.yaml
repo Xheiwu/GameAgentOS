@@ -1,0 +1,20 @@
+version: 0.1
+
+composition_rules:
+
+  - name: foundation-first
+    description: Foundation systems must be selected before gameplay modules.
+    order:
+      - core-system
+      - combat-system
+      - content-system
+      - meta-system
+
+  - name: avoid-feature-pile
+    description: Do not add modules only because they exist. Each module must support the core loop.
+
+  - name: prefer-minimum-viable-composition
+    description: Generate the smallest combination that proves the core experience.
+
+  - name: resolve-conflicts
+    description: When modules conflict, prefer the user's target experience and platform constraints.

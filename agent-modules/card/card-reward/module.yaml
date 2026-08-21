@@ -1,0 +1,8 @@
+module:
+  name: Card Reward Foundation
+  category: card-combat/core
+  purpose: Define card acquisition and reward selection systems.
+  capabilities:
+    - reward_pool
+    - rarity
+    - upgrade_choice

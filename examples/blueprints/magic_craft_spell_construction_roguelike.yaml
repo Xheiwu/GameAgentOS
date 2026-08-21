@@ -1,0 +1,53 @@
+# Blueprint Case 002
+# Magic Craft Style Spell Construction Roguelike
+
+input:
+  description: "Create a game inspired by spell construction roguelikes"
+
+analysis:
+  genre:
+    - action
+    - roguelike
+    - build_crafting
+
+  experience:
+    - experimentation
+    - discovery
+    - build_creation
+    - replayability
+
+reference_patterns:
+  extracted:
+    - modular_ability_construction
+    - real_time_combat
+    - random_reward_selection
+    - temporary_run_progression
+
+module_selection:
+  combat:
+    - responsive-combat
+    - skill-system
+    - damage-pipeline
+
+  roguelike:
+    - run-loop
+    - random-generation
+    - reward-choice
+    - build-system
+
+  missing_capability:
+    - spell-construction-core
+
+system_composition:
+  core_loop:
+    - enter_run
+    - explore
+    - collect_spell_parts
+    - construct_build
+    - fight
+    - defeat_boss
+    - unlock_progression
+
+blueprint_output:
+  new_module_required: true
+  new_module: spell-construction-core

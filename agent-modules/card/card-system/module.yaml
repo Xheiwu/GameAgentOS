@@ -1,0 +1,8 @@
+module:
+  name: Card System Foundation
+  category: card-combat/core
+  purpose: Define universal card data structure and effect execution.
+  capabilities:
+    - card_definition
+    - card_effects
+    - targeting

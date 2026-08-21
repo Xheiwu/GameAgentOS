@@ -1,0 +1,20 @@
+name: module-selection
+version: 1.0
+category: game-blueprint-engine
+purpose: Select required game capability modules from analyzed user requirements.
+
+inputs:
+  - query_analysis
+  - genre_classification
+  - reference_analysis
+
+outputs:
+  - selected_modules
+  - dependency_order
+  - composition_plan
+
+rules:
+  - Do not copy reference games directly.
+  - Choose systems based on player experience goals.
+  - Include required dependencies.
+  - Avoid unnecessary complexity.

@@ -1,0 +1,8 @@
+module:
+  name: Card Synergy Foundation
+  category: card-combat/core
+  purpose: Define card interactions and build formation rules.
+  capabilities:
+    - tags
+    - combos
+    - synergy_rules

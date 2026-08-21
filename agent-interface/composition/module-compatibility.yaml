@@ -1,0 +1,41 @@
+version: 0.1
+
+rules:
+
+  roguelike-core:
+    type: foundation
+    compatible_with:
+      - action-combat
+      - card-combat
+      - shooter-combat
+
+  action-combat:
+    type: gameplay
+    requires:
+      - entity-system
+      - event-system
+    compatible_with:
+      - roguelike-core
+      - boss-pattern
+      - skill-system
+    conflicts:
+      - turn-based-core
+
+  card-combat:
+    type: gameplay
+    requires:
+      - turn-system
+      - card-system
+    compatible_with:
+      - roguelike-core
+      - deck-building
+    conflicts:
+      - real-time-action-core
+
+  boss-pattern:
+    type: extension
+    requires:
+      - combat-core
+    compatible_with:
+      - action-combat
+      - card-combat

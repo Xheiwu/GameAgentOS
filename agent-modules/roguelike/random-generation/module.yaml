@@ -1,0 +1,8 @@
+name: random-generation
+category: roguelike
+purpose: Generate controlled procedural variation.
+capabilities:
+  - weighted pools
+  - procedural rooms
+  - encounter variation
+  - reward variation

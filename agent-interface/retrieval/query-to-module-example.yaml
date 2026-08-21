@@ -1,0 +1,35 @@
+query:
+  user_request: "制作一个手机端中国风高难度Boss战"
+
+understanding:
+  intent:
+    - boss_combat
+
+  platform:
+    - mobile
+
+  theme:
+    - chinese_fantasy
+
+  experience:
+    - readable_attack
+    - strong_feedback
+    - skill_based
+
+retrieval:
+  primary:
+    - posture-break-boss-duel
+
+  supporting:
+    - impact-feedback-system
+    - boss-ai-pattern
+
+checks:
+  required:
+    - entity-system
+    - event-system
+    - state-change-system
+
+output:
+  instruction:
+    Generate an original boss combat system using selected modules.

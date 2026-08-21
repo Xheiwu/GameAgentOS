@@ -1,0 +1,19 @@
+name: task-generation
+version: 1.0
+category: game-blueprint-engine
+purpose: Convert game blueprints into structured development tasks for coding agents.
+
+inputs:
+  - game_blueprint
+  - system_architecture
+  - selected_modules
+
+outputs:
+  - epic_tasks
+  - implementation_tasks
+  - validation_tasks
+
+principles:
+  - preserve_design_intent
+  - respect_module_dependencies
+  - split_large_features_into_agent_tasks

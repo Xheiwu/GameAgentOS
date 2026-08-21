@@ -1,0 +1,35 @@
+version: 0.1
+
+GamePlan:
+  goal:
+    description: User's desired game experience
+
+  core_loop:
+    - action
+    - reward
+    - progression
+    - repeat
+
+  modules:
+    required: []
+    optional: []
+
+  systems:
+    - combat
+    - progression
+    - economy
+    - content
+
+  dependencies:
+    order: []
+
+  scope:
+    mvp:
+      - core_fun_loop
+      - minimum_content
+    future:
+      - expansion_systems
+
+  validation:
+    experience_goals: []
+    technical_constraints: []

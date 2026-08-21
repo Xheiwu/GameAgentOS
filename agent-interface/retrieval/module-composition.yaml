@@ -1,0 +1,34 @@
+version: 0.1
+
+composition:
+
+  principles:
+    - Combine small reusable abilities instead of selecting one giant template.
+    - Resolve dependencies before generation.
+    - Avoid incompatible design patterns.
+
+  example:
+
+    request:
+      type: action_boss
+      experience:
+        - high_tension
+        - skill_based
+
+    selected_modules:
+      primary:
+        - posture-break-boss-duel
+
+      supporting:
+        - impact-feedback-system
+        - boss-state-machine
+
+      dependencies:
+        - entity-system
+        - event-system
+        - state-change-system
+
+  conflict_detection:
+    examples:
+      - fast_mobile_combat_vs_extreme_slow_precision_combat
+      - random_behavior_vs_pattern_learning_boss

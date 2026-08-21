@@ -1,0 +1,8 @@
+module:
+  name: Combat Level Design Foundation
+  version: 1.0
+  category: combat/level
+  purpose: Define combat spaces, pacing, difficulty curves and encounter progression.
+  dependencies:
+    - combat/encounter-design
+    - combat/boss-pattern

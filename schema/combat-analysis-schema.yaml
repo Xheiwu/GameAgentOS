@@ -1,0 +1,49 @@
+# Combat Analysis Schema
+# Version: 0.1
+
+combat:
+  identity:
+    name:
+    genre:
+    perspective:
+
+  entities:
+    actors:
+    targets:
+    allies:
+
+  actions:
+    player_actions:
+    enemy_actions:
+    system_actions:
+
+  resources:
+    health:
+    energy:
+    cooldown:
+
+  states:
+    available_states:
+    transitions:
+
+  events:
+    triggers:
+    generated_events:
+
+  rules:
+    conditions:
+    consequences:
+
+  feedback:
+    visual:
+    audio:
+    motion:
+    ui:
+
+  progression:
+    upgrades:
+    difficulty:
+
+  agent_notes:
+    implementation_constraints:
+    validation_rules:

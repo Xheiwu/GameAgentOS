@@ -1,0 +1,9 @@
+module:
+  name: Boss Combat Pattern Foundation
+  version: 1.0
+  category: combat/boss
+  purpose: Define reusable boss encounter patterns including phases, telegraphs, weaknesses and challenge loops.
+  dependencies:
+    - combat/damage-pipeline
+    - combat/status-effect
+    - combat/skill-system

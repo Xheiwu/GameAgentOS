@@ -1,0 +1,43 @@
+# Pattern Schema v1.0
+
+pattern:
+  id: unique_identifier
+  name: pattern_name
+  category: combat|progression|economy|retention|content
+
+experience:
+  player_feeling: []
+  motivation: []
+  emotional_goal: []
+
+psychology:
+  decisions:
+    - choices_created
+    - tradeoffs
+  feedback_loop:
+    - action
+    - consequence
+    - reinforcement
+
+principles:
+  - design_rule
+  - constraint
+  - balance_requirement
+
+system_requirements:
+  required_modules: []
+  optional_modules: []
+
+composition:
+  compatible_patterns: []
+  conflicting_patterns: []
+
+failure_modes:
+  - common_failure
+  - bad_implementation
+
+validation:
+  metrics:
+    - engagement
+    - clarity
+    - replayability

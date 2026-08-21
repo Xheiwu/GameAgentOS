@@ -1,0 +1,15 @@
+module:
+  name: Quest System Foundation
+  version: 1.0
+  category: rpg/progression
+  purpose: Provide a universal quest framework for RPG, adventure and live content games.
+  capabilities:
+    - main_quest
+    - side_quest
+    - repeatable_quest
+    - event_quest
+    - dynamic_objectives
+  design_rules:
+    - quests should create player goals
+    - objectives should connect with gameplay systems
+    - rewards should influence progression

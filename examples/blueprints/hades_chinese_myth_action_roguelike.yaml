@@ -1,0 +1,36 @@
+name: Hades Chinese Myth Action Roguelike
+
+input:
+  idea: "A Hades-like action roguelike with Chinese mythology"
+
+analysis:
+  genre:
+    - action
+    - roguelike
+    - rpg
+  experience:
+    - fast_combat
+    - build_variation
+    - boss_challenge
+
+modules:
+  combat:
+    - responsive-combat
+    - skill-system
+    - boss-pattern
+  roguelike:
+    - run-loop
+    - reward-choice
+    - map-generation
+  progression:
+    - skill-tree
+    - equipment-system
+
+core_loop:
+  - enter_run
+  - explore_rooms
+  - combat
+  - gain_rewards
+  - modify_build
+  - defeat_boss
+  - unlock_progression

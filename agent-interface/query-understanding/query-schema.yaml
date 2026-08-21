@@ -1,0 +1,56 @@
+version: 0.1
+
+query:
+  intent:
+    type: string
+    description: Main development goal
+
+  genre:
+    type: array
+    values:
+      - action
+      - rpg
+      - roguelike
+      - strategy
+      - card
+      - simulation
+
+  platform:
+    type: array
+    values:
+      - mobile
+      - web
+      - pc
+      - console
+
+  combat_style:
+    type: array
+    values:
+      - real_time
+      - turn_based
+      - card_based
+      - tactical
+
+  player_experience:
+    type: array
+    values:
+      - satisfying_impact
+      - high_difficulty
+      - fast_feedback
+      - strategic_depth
+      - exploration
+
+  required_systems:
+    type: array
+    examples:
+      - boss_system
+      - reward_system
+      - progression_system
+      - skill_system
+
+  constraints:
+    type: array
+    examples:
+      - engine
+      - performance
+      - art_style

@@ -1,0 +1,22 @@
+module:
+  name: RPG Progression Core
+  version: 1.0
+  category: progression/core
+
+purpose: |
+  Provide reusable RPG character growth systems that can be combined
+  with combat, roguelike and card game modules.
+
+capabilities:
+  - character_level
+  - attributes
+  - equipment
+  - affixes
+  - skill_growth
+  - quests
+  - economy
+
+compatible_modules:
+  - combat-core
+  - roguelike-core
+  - card-combat-core

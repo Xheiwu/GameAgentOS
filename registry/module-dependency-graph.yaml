@@ -1,0 +1,38 @@
+version: 1.0
+
+relationships:
+
+  combat-core:
+    depends_on:
+      - skill-system
+      - damage-pipeline
+      - status-effect
+
+  roguelike-core:
+    depends_on:
+      - combat-core
+      - reward-choice
+      - build-system
+
+  card-combat-core:
+    depends_on:
+      - status-effect
+      - build-system
+      - reward-choice
+
+  rpg-progression:
+    depends_on:
+      - attribute-system
+      - equipment-system
+      - economy-system
+
+  action-roguelike:
+    compose:
+      - combat-core
+      - roguelike-core
+      - rpg-progression
+
+  deckbuilder-roguelike:
+    compose:
+      - card-combat-core
+      - roguelike-core

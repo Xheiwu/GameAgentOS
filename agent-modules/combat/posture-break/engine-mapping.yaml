@@ -1,0 +1,59 @@
+module:
+  name: Posture Break Boss Duel Engine Mapping
+  version: 0.1
+
+purpose:
+  description: Map engine-independent combat concepts into target engine implementation patterns.
+
+core_logic:
+  - entity
+  - component
+  - event
+  - state_machine
+  - rule
+
+engines:
+  unity:
+    entity:
+      pattern: GameObject + Component
+    state_machine:
+      pattern: C# state classes or animator state machine
+    event_system:
+      pattern: C# events or message bus
+    data:
+      pattern: ScriptableObject or serializable classes
+
+  godot:
+    entity:
+      pattern: Node + Component style scripts
+    state_machine:
+      pattern: State nodes or scripts
+    event_system:
+      pattern: Signals
+    data:
+      pattern: Resource objects
+
+  urhox_lua:
+    entity:
+      pattern: Scene nodes and Lua components
+    state_machine:
+      pattern: Lua state tables
+    event_system:
+      pattern: Callback/event dispatcher
+    data:
+      pattern: Lua tables/config files
+
+  web_canvas:
+    entity:
+      pattern: JavaScript objects/components
+    state_machine:
+      pattern: State objects
+    event_system:
+      pattern: Event dispatcher
+    data:
+      pattern: JSON configuration
+
+rules:
+  - Never transfer engine-specific code into the design module.
+  - Keep gameplay rules independent from rendering implementation.
+  - Generate engine code only after selecting target engine.

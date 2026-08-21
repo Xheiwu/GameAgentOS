@@ -1,0 +1,7 @@
+name: meta-progression
+category: roguelike
+purpose: Define permanent progression across runs.
+capabilities:
+  - unlocks
+  - upgrades
+  - long term retention

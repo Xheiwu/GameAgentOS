@@ -1,0 +1,72 @@
+module:
+  id: example-module
+  version: 0.1
+  category: gameplay
+
+identity:
+  name: Example Module
+  description: Reusable game design capability.
+
+intent:
+  solves:
+    - problem_description
+
+when_to_use:
+  conditions:
+    - condition
+
+experience_goal:
+  player_feeling:
+    - feeling
+
+requirements:
+  systems:
+    - entity-system
+
+components:
+  - name: ComponentName
+    purpose: description
+
+entities:
+  - Player
+
+# Event driven communication
+events:
+  input:
+    - EventName
+  output:
+    - EventName
+
+parameters:
+  parameter_name:
+    type: number
+    description: tuning value
+
+rules:
+  - design_rule
+
+dependencies:
+  required:
+    - module-id
+
+compatibility:
+  works_with:
+    - module-id
+  conflicts_with:
+    - module-id
+
+examples:
+  - example_usage
+
+anti_patterns:
+  - bad_usage
+
+validation:
+  criteria:
+    - test_condition
+
+engine_mapping:
+  unity: description
+  godot: description
+  urhox: description
+  web: description

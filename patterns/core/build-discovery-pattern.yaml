@@ -1,0 +1,34 @@
+pattern:
+  id: build_discovery
+  name: Build Discovery Pattern
+  category: progression
+
+experience:
+  core_feeling:
+    - creativity
+    - experimentation
+    - ownership
+
+why_it_works:
+  - choices create different future strategies
+  - players develop personal play styles
+
+usage_context:
+  - action games
+  - roguelike games
+  - card games
+  - rpg systems
+
+reference_examples:
+  - Hades
+  - Slay the Spire
+  - Magic Craft
+
+related_modules:
+  - skill-system
+  - card-system
+  - equipment-system
+
+considerations:
+  - choices should create meaningful differences
+  - avoid meaningless upgrades

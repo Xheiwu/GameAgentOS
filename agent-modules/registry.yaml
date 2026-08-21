@@ -1,0 +1,17 @@
+modules:
+
+  - name: Combat Core
+    status: designed
+    category: combat
+
+  - name: Roguelike Core
+    status: designed
+    category: loop
+
+  - name: Card Combat Core
+    status: designed
+    category: strategy
+
+  - name: RPG Progression Core
+    status: added
+    category: progression

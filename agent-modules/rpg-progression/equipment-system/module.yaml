@@ -1,0 +1,14 @@
+module:
+  name: Equipment System Foundation
+  version: 1.0
+  category: rpg/progression
+  purpose: Define equipment based character customization and progression.
+  concepts:
+    - equipment_slots
+    - item_identity
+    - rarity
+    - upgrades
+    - equipment_effects
+  dependencies:
+    - affix-system
+    - economy-system

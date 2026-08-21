@@ -1,0 +1,25 @@
+version: 1.0
+
+module_schema:
+  required:
+    - name
+    - purpose
+    - category
+    - dependencies
+    - capabilities
+    - examples
+
+retrieval:
+  query_fields:
+    - genre
+    - gameplay_style
+    - desired_experience
+    - reference_games
+    - required_systems
+
+output:
+  agent_should_generate:
+    - blueprint
+    - system_architecture
+    - task_breakdown
+    - implementation_plan

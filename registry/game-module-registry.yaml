@@ -1,0 +1,47 @@
+version: 1.0
+name: GameAgentOS Module Registry
+purpose: Agent retrieval index for reusable game development capabilities.
+
+modules:
+  combat:
+    status: foundation
+    modules:
+      - responsive-combat
+      - damage-pipeline
+      - status-effect
+      - skill-system
+      - growth-build
+      - boss-pattern
+      - enemy-ai
+      - encounter-design
+
+  roguelike:
+    status: foundation
+    modules:
+      - run-loop
+      - random-generation
+      - reward-choice
+      - build-system
+      - meta-progression
+      - event-system
+      - map-generation
+
+  card:
+    status: foundation
+    modules:
+      - turn-system
+      - card-system
+      - deck-building
+      - resource-management
+      - card-synergy
+
+  rpg:
+    status: foundation
+    modules:
+      - character-level
+      - attribute-system
+      - equipment-system
+      - affix-system
+      - skill-tree
+      - quest-system
+      - economy-system

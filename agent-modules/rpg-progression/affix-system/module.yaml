@@ -1,0 +1,11 @@
+module:
+  name: Affix System Foundation
+  version: 1.0
+  category: rpg/progression
+  purpose: Define randomized item modifiers and build diversity.
+  concepts:
+    - prefixes
+    - suffixes
+    - rarity_scaling
+    - synergy_rules
+    - procedural_items

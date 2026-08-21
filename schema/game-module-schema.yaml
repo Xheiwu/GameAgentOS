@@ -1,0 +1,40 @@
+# GameAgentOS Game Module Schema
+
+module:
+  name: ""
+  category: ""
+  version: "0.1"
+
+purpose:
+  description: ""
+  player_experience: ""
+
+input:
+  - ""
+
+output:
+  - ""
+
+rules:
+  - ""
+
+parameters:
+  - name: ""
+    value: ""
+
+components:
+  - ""
+
+dependencies:
+  - ""
+
+engine_notes:
+  unity: ""
+  godot: ""
+  urhox: ""
+
+examples:
+  - ""
+
+references:
+  - ""

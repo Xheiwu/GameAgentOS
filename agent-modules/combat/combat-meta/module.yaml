@@ -1,0 +1,9 @@
+module:
+  name: Combat Meta Integration Foundation
+  version: 1.0
+  category: combat/meta
+  purpose: Connect combat results with rewards, progression and long-term loops.
+  dependencies:
+    - combat/skill-system
+    - rpg-progression
+    - roguelike-core

@@ -1,0 +1,29 @@
+pattern:
+  name: hunting_loop
+  category: boss_progression
+
+intent:
+  description: Build a gameplay loop around learning and defeating powerful targets.
+
+player_experience:
+  - preparation
+  - discovery
+  - mastery
+  - achievement
+
+principles:
+  - target_preparation
+  - boss_learning
+  - weakness_discovery
+  - material_reward
+  - equipment_growth
+
+required_modules:
+  - boss-pattern
+  - enemy-ai
+  - equipment-system
+  - reward-system
+
+agent_notes:
+  avoid: "Boss as only a high HP enemy"
+  focus: "Victory should come from understanding behavior"

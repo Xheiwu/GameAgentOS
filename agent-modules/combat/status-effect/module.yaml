@@ -1,0 +1,12 @@
+module:
+  name: Status Effect System
+  version: 1.0
+  category: combat/extension
+  purpose: Manage buffs, debuffs and persistent effects.
+  dependencies:
+    - damage-pipeline
+  capabilities:
+    - buff
+    - debuff
+    - damage-over-time
+    - crowd-control

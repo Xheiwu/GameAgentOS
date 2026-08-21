@@ -1,0 +1,26 @@
+pattern:
+  name: build_driven_action_roguelike
+  category: combat
+
+intent:
+  description: Create replayability through combat choices that transform the player's build.
+
+player_experience:
+  - experimentation
+  - increasing mastery
+  - meaningful choices
+
+principles:
+  - short_combat_loops
+  - build_variation
+  - reward_choice
+  - permanent_progression
+
+required_modules:
+  - combat-core
+  - roguelike-core
+  - progression-core
+
+agent_notes:
+  avoid: "Only adding random rewards without changing gameplay"
+  focus: "Every choice should alter future combat decisions"

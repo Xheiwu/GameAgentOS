@@ -1,6 +1,6 @@
 # GameAgentOS
 
-> An open-source knowledge infrastructure for AI game development.
+> An open-source Agent-oriented game design knowledge infrastructure.
 
 ## 🌍 Languages
 
@@ -10,102 +10,165 @@
 
 ---
 
-# English
+# Vision
 
-## Vision
+GameAgentOS is not a game template library.
 
-GameAgentOS transforms excellent game design patterns, gameplay systems, combat mechanics, AI behaviors and production experience into structured modules that AI agents can understand and reuse.
+It is a structured knowledge system that converts excellent game design experience into reusable capabilities for AI agents.
 
-AI can generate code, but it does not automatically understand why a game feels good.
+AI can generate code, but it does not automatically understand:
 
-GameAgentOS creates a bridge between human game design experience and AI development agents.
+- Why a combat system feels satisfying
+- Why a roguelike loop keeps players engaged
+- Why a progression system feels rewarding
+
+GameAgentOS extracts these hidden design rules and transforms them into machine-readable modules.
 
 ```
 Excellent Games
-      ↓
-Analysis Agent
-      ↓
-Standardized Game Modules
-      ↓
-Development Agent
-      ↓
-Unity / Godot / Web / UrhoX Implementation
+        ↓
+Research Layer
+        ↓
+Design Pattern Layer
+        ↓
+Agent Module Layer
+        ↓
+Game Blueprint
+        ↓
+Development Tasks
+        ↓
+Coding Agent
 ```
 
-## Core Philosophy
+---
+
+# Core Philosophy
 
 Do not copy games.
 
-Extract reusable game design patterns.
+Extract reusable game design abilities.
 
-Every module should describe:
+A game is not a module.
 
-- Purpose
+A game is a combination of modules.
+
+Example:
+
+```
+Hades-like experience
+=
+Action Combat
++
+Roguelike Core
++
+Build System
++
+Reward Loop
+```
+
+---
+
+# Architecture
+
+## Knowledge Layer
+
+```
+research/
+
+Raw game analysis
+(source, videos, observations)
+
+patterns/
+
+Reusable design principles
+
+agent-modules/
+
+Executable AI knowledge packages
+```
+
+## Agent Layer
+
+```
+Query Understanding
+        ↓
+Module Retrieval
+        ↓
+Module Composition
+        ↓
+Game Blueprint
+        ↓
+Task Breakdown
+        ↓
+Execution Protocol
+```
+
+Agents should retrieve the minimum required knowledge instead of loading the entire repository.
+
+---
+
+# Module Standard
+
+Every GameAgentOS module should define:
+
+- Intent
 - Player experience goal
-- Input
-- Output
-- Rules
+- Usage conditions
+- Components
+- Events
 - Parameters
+- Rules
 - Dependencies
-- Engine implementation notes
+- Compatibility
+- Engine mapping
 - Examples
+- Validation criteria
 
 ---
 
-# 中文
+# Example Workflow
 
-## 项目愿景
+User:
 
-GameAgentOS 是面向 AI Agent 的游戏开发知识基础设施。
+"Create a mobile Chinese fantasy boss hunting game."
 
-目标是将优秀游戏中的：
+Agent:
 
-- 战斗系统
-- Boss机制
-- 肉鸽玩法
-- 数值设计
-- AI行为
-- 关卡设计
-- 玩家体验
-
-拆解为 AI 可以理解和复用的标准化模块。
-
-AI 现在可以生成代码，但并不知道：
-
-“为什么这个游戏好玩？”
-
-GameAgentOS 希望把优秀游戏设计经验转化为 AI 可以调用的知识资产。
-
-## 核心原则
-
-不是复制游戏。
-
-而是提炼游戏设计规律。
+```
+Analyze requirement
+        ↓
+Find combat modules
+        ↓
+Combine Boss + Action Combat + Reward systems
+        ↓
+Generate Game Blueprint
+        ↓
+Create development tasks
+        ↓
+Generate code
+```
 
 ---
 
-# 日本語
+# Current Case Study
 
-## ビジョン
+## Case #001: Posture Break Boss Duel
 
-GameAgentOS は AI エージェント向けのゲーム開発知識基盤です。
+Completed pipeline:
 
-優れたゲームから：
-
-- バトルシステム
-- ボス設計
-- ローグライク構造
-- 数値設計
-- AI 行動
-- レベルデザイン
-
-を分析し、AI が理解・再利用できる標準化モジュールへ変換します。
-
-AI はコードを書くことができます。
-
-しかし「なぜそのゲームが面白いのか」を理解することは別の問題です。
-
-GameAgentOS はゲームデザインの知識を AI エージェントへ橋渡しします。
+```
+Game Analysis
+        ↓
+Combat Pattern
+        ↓
+Agent Module
+        ↓
+Module Specification
+        ↓
+Retrieval Registration
+        ↓
+Blueprint Integration
+```
 
 ---
 
@@ -114,22 +177,34 @@ GameAgentOS はゲームデザインの知識を AI エージェントへ橋渡�
 ```
 GameAgentOS
 │
-├── docs              # Project documentation / 项目文档 / ドキュメント
-├── schema            # AI module standards / AI模块标准 / AIモジュール規格
-├── modules           # Reusable game modules / 游戏模块 / 再利用可能モジュール
-├── examples          # Examples / 示例 / 例
-└── tools             # Future AI tools / AI工具
+├── research              # Raw game research
+├── patterns              # Design patterns
+├── agent-modules         # Agent executable modules
+├── agent-interface       # Retrieval / Planning / Execution protocols
+├── validation            # Module testing rules
+├── examples              # Usage examples
+└── tools                 # Future AI tools
 ```
 
-## Roadmap
+---
+
+# Roadmap
 
 - [x] Repository foundation
-- [ ] Define Game Module Schema
-- [ ] Build combat knowledge base
-- [ ] Build roguelike knowledge base
-- [ ] Create analysis agent workflow
-- [ ] Support multi-engine generation
+- [x] Agent Retrieval Architecture
+- [x] Query Understanding
+- [x] Module Matching
+- [x] Game Blueprint Schema
+- [x] Module Composition Rules
+- [x] Module Specification Standard
+- [ ] Expand core game modules
+- [ ] Build combat module library
+- [ ] Build roguelike module library
+- [ ] Build RPG progression module library
+- [ ] Connect multi-engine generation
 
-## Philosophy
+---
 
-Turn the experience of great game designers into structured knowledge that AI agents can understand.
+# Philosophy
+
+Turn the experience of great game designers into structured knowledge that AI agents can understand, retrieve and execute.

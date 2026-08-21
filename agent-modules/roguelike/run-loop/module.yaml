@@ -1,0 +1,8 @@
+name: run-loop
+category: roguelike
+purpose: Define the complete player run lifecycle.
+capabilities:
+  - run lifecycle
+  - failure and restart loop
+  - temporary progression
+  - meta progression connection

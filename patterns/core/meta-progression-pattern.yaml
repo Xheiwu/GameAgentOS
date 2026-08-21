@@ -1,0 +1,32 @@
+pattern:
+  id: meta_progression
+  name: Meta Progression Pattern
+  category: progression
+
+experience:
+  core_feeling:
+    - long_term_growth
+    - persistence
+    - increasing_mastery
+
+why_it_works:
+  - failure still creates value
+  - players build attachment over multiple sessions
+
+usage_context:
+  - roguelike games
+  - rpg games
+  - live service games
+
+reference_examples:
+  - Hades
+  - Rogue Legacy
+
+related_modules:
+  - meta-progression
+  - economy-system
+  - character-level
+
+considerations:
+  - permanent growth should support skill improvement
+  - avoid removing challenge completely

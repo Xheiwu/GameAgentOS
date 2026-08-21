@@ -1,0 +1,7 @@
+name: reward-choice
+category: roguelike
+purpose: Model meaningful player reward decisions.
+capabilities:
+  - reward selection
+  - rarity rules
+  - synergy-aware rewards

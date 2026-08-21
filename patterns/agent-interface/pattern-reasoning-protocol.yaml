@@ -1,0 +1,42 @@
+# Pattern Reasoning Protocol v1.0
+
+# Purpose:
+# Pattern provides design understanding, not fixed implementation.
+# Agent should use patterns as thinking references.
+
+pattern_usage:
+  role: design_guidance
+  not:
+    - template_copy
+    - mandatory_rule
+    - fixed_solution
+
+reasoning_steps:
+  - step: identify_experience_goal
+    question: "What player experience is this pattern trying to create?"
+
+  - step: evaluate_context
+    question: "Does this experience fit the current game's audience, platform and genre?"
+
+  - step: explore_variations
+    question: "What different systems could achieve this experience?"
+
+  - step: select_modules
+    question: "Which capability modules can support this direction?"
+
+  - step: adapt_pattern
+    question: "How should this pattern be changed for this specific game?"
+
+agent_principles:
+  - preserve_creativity
+  - avoid_direct_copy
+  - prioritize_player_experience
+  - use_patterns_as_reference
+  - allow_new_solutions
+
+output:
+  should_include:
+    - reasoning
+    - selected_patterns
+    - selected_modules
+    - design_variations

@@ -1,0 +1,12 @@
+module:
+  name: Skill System Foundation
+  version: 1.0
+  category: combat/core
+  purpose: Define reusable active, passive and triggered skills.
+  dependencies:
+    - damage-pipeline
+    - status-effect
+  capabilities:
+    - active-skill
+    - passive-skill
+    - trigger-skill

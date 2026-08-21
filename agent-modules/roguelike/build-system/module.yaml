@@ -1,0 +1,7 @@
+name: build-system
+category: roguelike
+purpose: Define temporary build creation and synergy.
+capabilities:
+  - upgrade combinations
+  - synergy detection
+  - gameplay identity formation

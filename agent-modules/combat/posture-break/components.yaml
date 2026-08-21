@@ -1,0 +1,44 @@
+components:
+
+  Posture:
+    type: resource
+    purpose: Secondary combat resource representing enemy stability.
+    data:
+      - current
+      - maximum
+      - recovery_rate
+    rules:
+      - decreases through specific combat actions
+      - reaching zero triggers PostureBroken
+
+  AttackPattern:
+    type: behavior_data
+    purpose: Defines readable boss attack sequences.
+    data:
+      - preparation_time
+      - active_time
+      - recovery_time
+      - damage
+
+  ParryAbility:
+    type: player_capability
+    purpose: Allows precise defensive interaction.
+    data:
+      - timing_window
+      - success_reward
+      - failure_penalty
+
+  VulnerableState:
+    type: state
+    purpose: Defines temporary boss weakness.
+    data:
+      - duration
+      - available_actions
+
+  Execution:
+    type: action
+    purpose: High reward action after successful setup.
+    data:
+      - damage
+      - animation
+      - reward

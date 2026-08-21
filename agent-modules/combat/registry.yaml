@@ -1,0 +1,14 @@
+combat_core:
+  modules:
+    - responsive-combat
+    - damage-pipeline
+    - status-effect
+    - skill-system
+    - boss-pattern
+    - enemy-ai
+
+  usage:
+    - action-rpg
+    - roguelike
+    - arpg
+    - card-hybrid

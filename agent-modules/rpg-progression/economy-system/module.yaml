@@ -1,0 +1,15 @@
+module:
+  name: Economy System Foundation
+  version: 1.0
+  category: rpg/progression
+  purpose: Provide resource circulation and economic balancing foundations.
+  capabilities:
+    - currency_system
+    - resource_sink
+    - shop_system
+    - upgrade_costs
+    - inflation_control
+  design_rules:
+    - every resource needs acquisition and consumption paths
+    - economy should support player decisions
+    - rewards must connect with progression goals

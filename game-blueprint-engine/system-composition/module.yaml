@@ -1,0 +1,17 @@
+name: system-composition
+version: 1.0
+category: blueprint-engine
+purpose: Compose selected game modules into a complete gameplay architecture.
+inputs:
+  - user_intent
+  - genre_analysis
+  - reference_analysis
+  - selected_modules
+outputs:
+  - gameplay_loop
+  - system_dependencies
+  - blueprint_structure
+principles:
+  - modules must have clear relationships
+  - preserve original player experience goals
+  - avoid simple feature accumulation

@@ -1,0 +1,25 @@
+# GameAgentOS Module Registry
+
+version: 0.1
+
+modules:
+
+  posture-break-boss-duel:
+    category: combat
+    path: agent-modules/combat/posture-break-boss-duel.yaml
+    tags:
+      - boss
+      - parry
+      - timing
+      - posture
+      - action-combat
+    required_systems:
+      - entity-system
+      - event-system
+      - state-change-system
+    engines:
+      - unity
+      - godot
+      - urhox
+      - web
+    confidence: high

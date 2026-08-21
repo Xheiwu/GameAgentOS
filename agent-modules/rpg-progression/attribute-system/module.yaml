@@ -1,0 +1,14 @@
+module:
+  name: Attribute System Foundation
+  version: 1.0
+  category: rpg/progression
+  purpose: Define universal character attributes and modifiers.
+  concepts:
+    - primary_attributes
+    - derived_attributes
+    - modifiers
+    - scaling_rules
+  supports:
+    - action_rpg
+    - turn_based
+    - roguelike

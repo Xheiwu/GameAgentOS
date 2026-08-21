@@ -1,0 +1,51 @@
+version: 0.1
+
+GameBlueprint:
+
+  identity:
+    name: ""
+    description: ""
+
+  vision:
+    target_experience: []
+    player_emotion: []
+
+  genre:
+    primary: ""
+    secondary: []
+
+  platform:
+    target: []
+    constraints: []
+
+  core_loop:
+    - step: ""
+      purpose: ""
+
+  modules:
+    selected: []
+    composition_rules: []
+
+  systems:
+    required: []
+    optional: []
+
+  progression:
+    short_term: []
+    long_term: []
+
+  economy:
+    resources: []
+    sinks: []
+
+  mvp_scope:
+    must_have: []
+    should_have: []
+    future: []
+
+  development_plan:
+    phases: []
+
+  validation:
+    design_goals: []
+    technical_constraints: []

@@ -1,0 +1,19 @@
+name: pattern-extraction-engine
+version: 1.0
+category: blueprint-engine
+purpose: Extract reusable game design patterns from reference analysis and blueprint cases.
+
+input:
+  - analyzed_reference
+  - blueprint_case
+
+output:
+  - design_pattern
+  - system_mapping
+  - required_modules
+
+pipeline:
+  - experience_extraction
+  - design_rule_extraction
+  - pattern_normalization
+  - module_mapping

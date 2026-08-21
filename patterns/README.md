@@ -4,23 +4,28 @@
 
 Extract reusable game design principles from research materials.
 
+Patterns are not game copies. They represent reusable laws:
+
+```
+Reference Game
+      ↓
+Player Experience
+      ↓
+Design Principle
+      ↓
+System Pattern
+      ↓
+Agent Module
+      ↓
+Blueprint
+```
+
 Patterns describe:
 
 - Why a design works
 - What player experience it creates
+- What conditions make it effective
 - What systems are required
-- What rules should be followed
+- What modules should be retrieved
 
-Patterns are engine independent.
-
-Example:
-
-```
-Posture Break Boss Duel
-
-Research
- ↓
-Design Pattern
- ↓
-Agent Module
-```
+Patterns are engine independent and designed for AI agents.

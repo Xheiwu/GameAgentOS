@@ -1,0 +1,17 @@
+name: blueprint-schema
+version: 1.0
+category: game-blueprint-engine
+purpose: Define structured game blueprint format for agent communication.
+inputs:
+  - query_analysis
+  - selected_modules
+  - composed_systems
+outputs:
+  - game_identity
+  - gameplay_loop
+  - system_architecture
+  - development_tasks
+principles:
+  - modular
+  - engine-independent
+  - agent-readable
